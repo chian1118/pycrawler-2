@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-class MyprojectPipeline(object):
+class D028_HWPipeline(object):
     def process_item(self, item, spider):
         return item
 
